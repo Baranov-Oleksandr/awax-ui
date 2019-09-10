@@ -2,3 +2,9 @@
 @import "./variables";
 @import "./mixins";
 @import "./fonts.scss";
+
+body {
+   font-family: $font-family1, sans-serif;
+}
+
+
