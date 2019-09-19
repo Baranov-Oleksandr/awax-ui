@@ -2,10 +2,12 @@
 @import "./variables";
 @import "./mixins";
 @import "./fonts.scss";
+@import "components/index.scss";
 
 html,
 body {
   font-family: $font-family1;
+
   font-size: $fonts-size8;
   color: $color-firm9;
 }
