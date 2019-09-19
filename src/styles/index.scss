@@ -5,7 +5,32 @@
 
 html,
 body {
-   font-family: $font-family1, sans-serif;
+  font-family: $font-family1;
+  font-size: $fonts-size8;
+  color: $color-firm9;
 }
 
+h1 {
+  font-size: $fonts-size1
+}
+
+h2 {
+  font-size: $fonts-size2
+}
+
+h3 {
+  font-size: $fonts-size3
+}
+
+h4 {
+  font-size: $fonts-size4
+}
+
+h5 {
+  font-size: $fonts-size5
+}
+
+h6 {
+  font-size: $fonts-size6
+}
 
