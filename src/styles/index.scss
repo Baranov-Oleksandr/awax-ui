@@ -11,27 +11,46 @@ body {
   color: $color-firm9;
 }
 
+
 h1 {
-  font-size: $fonts-size1
+  font-size: $fonts-size1;
 }
 
 h2 {
-  font-size: $fonts-size2
+  font-size: $fonts-size2;
 }
 
 h3 {
-  font-size: $fonts-size3
+  font-size: $fonts-size3;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 h4 {
-  font-size: $fonts-size4
+  font-size: $fonts-size4;
 }
 
 h5 {
-  font-size: $fonts-size5
+  font-size: $fonts-size5;
 }
 
 h6 {
-  font-size: $fonts-size6
+  font-size: $fonts-size6;
 }
 
+p {
+  line-height: 1.79;
+}
+
+.subtitle {
+  color: $color-firm4;
+  font-size: $fonts-size7;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.app_section {
+  margin: auto;
+  padding: 60px 20px 92px;
+  max-width: 1172px;
+}

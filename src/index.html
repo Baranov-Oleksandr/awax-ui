@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Gulp Boilerplate</title>
-	<meta name="description" content="Gulp Boilerplate">
-	<!--Favicons BEGIN-->
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/static/favicons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/static/favicons/favicon-16x16.png">
-	<!--Favicons END-->
-	<link href="styles/index.css" rel="stylesheet" type="text/css" media="all">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <title>Gulp Boilerplate</title>
+    <meta name="description" content="Gulp Boilerplate">
+    <!--Favicons BEGIN-->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/static/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/static/favicons/favicon-16x16.png">
+    <!--Favicons END-->
+    <link href="styles/index.css" rel="stylesheet" type="text/css" media="all">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 <body>
-	Hello world! :)
-	<div class="about-us__video video-player">
-		<video
-				class="video-player__video"
-				poster="assets/images/dynamic/joker-photo.jpg">
+<div class="about-us app_section">
+    <h3 class="about-us__title">About Us</h3>
+    <p class="about-us_subtitle subtitle">Who we are?</p>
+</div>
+<div class="about-us__container">
+    <p class="about-us__info">Praesent metus urna, feugiat a placerat vel, elementum at leo. Quisque vel fermentum
+        ipsum. Nulla at facilisis est, vel condimentum ligula. Mauris volutpat vitae risus sed pellentesque. Praesent
+        fermentum neque ac tellus gravida, at varius sem accumsan. Nam porta erat id sapien consectetur. Fusce sed purus
+        eros. Vivamus rhoncus, ipsum in tempus fermentum, orci leo facilisis purus. Nam porta erat id sapien
+        consectetur. Fusce sed purus eros. Vivamus rhoncus, ipsum in tempus fermentum, orci leo facilisis purus.
+        <button class="about-us__btn button">
+            Learn more
+        </button>
+    </p>
+    <div class="about-us__video video-player">
+        <video class="video-player__video"
+               poster="assets/images/dynamic/joker-photo.jpg">
 
-			<source src="assets/video/joker-trailer.mp4">
-			<source src="assets/video/joker-trailer.avi">
-		</video>
-		<div class="video-player__play-btn">
-			<h3>watch</h3>
-			<img src="assets/images/static/play.png" alt="" class="video-player__i-play">
-			<h3>video!</h3>
-		</div>
-	</div>
-	<script src="./js/index.js"></script>
+            <source src="assets/video/joker-trailer.mp4">
+            <source src="assets/video/joker-trailer.avi">
+        </video>
+        <div class="video-player__play-btn">
+            <h3>watch</h3>
+            <img src="assets/images/static/play.png" alt="" class="video-player__i-play">
+            <h3>video!</h3>
+        </div>
+    </div>
+</div>
+    <script src="./js/index.js"></script>
 </body>
 </html>
