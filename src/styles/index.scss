@@ -36,6 +36,8 @@ h5 {
 
 h6 {
   font-size: $fonts-size6;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 p {
@@ -50,7 +52,15 @@ p {
 }
 
 .app_section {
-  margin: auto;
   padding: 60px 20px 92px;
-  max-width: 1172px;
+}
+
+.app_section--dark {
+  background-color: $color-firm1;
+  color: $color-firm2;
+}
+
+.app_section-content {
+  max-width: 1132px;
+  margin: 0 auto;
 }
