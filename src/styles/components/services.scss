@@ -1,0 +1,46 @@
+@import "../variables.scss";
+
+.services {
+  text-align: center;
+}
+
+.services_subtitle {
+  margin-top: 8px;
+}
+
+.app_section-content {
+  max-width: 1132px;
+  margin: 0 auto;
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+.services__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-left: 1px solid $color-firm5;
+  padding: 17px 27px 0;
+  &:last-child {
+    border-right: 1px solid $color-firm5;
+  }
+}
+
+.services__item-icon {
+  width: 59px;
+  height: 59px;
+}
+
+.services__item-title {
+  margin-top: 34px;
+}
+
+.services__item-description {
+  margin-top: 5px;
+  font-size: $fonts-size9;
+  color: $color-firm6;
+}
