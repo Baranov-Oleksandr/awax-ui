@@ -33,11 +33,11 @@
 .services__item-icon {
   width: 59px;
   height: 59px;
+  object-fit: contain;
 }
 
 .services__item-title {
   margin-top: 34px;
-  white-space: pre-line;
 }
 
 .services__item-description {
