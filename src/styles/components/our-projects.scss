@@ -7,11 +7,15 @@ $item-margin: 15px;
   text-align: center;
 }
 
+.our-projects__tabs {
+  margin-top: 45px;
+}
+
 .our-projects__items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: #{38px - $item-margin} -#{$item-margin} -#{$item-margin}; //TODO: Siplify this line
+  margin: #{38px - $item-margin} -#{$item-margin} -#{$item-margin};
 }
 
 .our-projects__item {

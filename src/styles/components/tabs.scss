@@ -1,0 +1,68 @@
+@import "../variables";
+
+.tabs{
+  display: flex;
+  justify-content: center;
+  height: 58px;
+}
+
+.tabs__items{
+  display: flex;
+  height: 100%;
+  padding: 0 15px;
+  border-radius: 25px;
+  background-color: $color-firm11;
+  border: 1px solid $color-firm10;
+}
+
+.tabs__item{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 5px 22px;
+  cursor: pointer;
+  overflow: hidden;
+  &:last-child{
+    &:after{
+      content:none;
+    }
+  }
+  &:hover,
+  &:focus{
+    &:before{
+      transform: translateY(0%);
+    }
+  }
+  &:active{
+    &:before{
+      transform: translateY(2px);
+    }
+  }
+  &:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: calc(100% - 10px);
+    height: 6px;
+    bottom: -1px;
+    left: 5px;
+    background-color: $color-firm3;
+    transition: transform $animation-time;
+    transform: translateY(100%);
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    content: '';
+    height: calc(100% - 4px);
+    width: 1px;
+    top: 2px;
+    right: 0;
+    background-color: $color-firm10;
+  }
+}
+.tabs__item--active {
+  &:before{
+    transform: translateX(0);
+  }
+}
