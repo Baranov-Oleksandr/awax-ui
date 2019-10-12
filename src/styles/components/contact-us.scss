@@ -1,0 +1,29 @@
+$control-horizontal-margin: 15px;
+$control-vertical-margin: 20px;
+
+.contact-us__form {
+  max-width: 540px;
+  margin: 88px auto 0; //TODO Should be fixed external margin
+}
+
+.contact-us__form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px - $control-vertical-margin -#{$control-horizontal-margin} -#{$control-vertical-margin};
+  &:first-child {
+    margin-top: -#{$control-vertical-margin};
+  }
+}
+
+.contact-us__form-row--textarea {
+  margin-top: 88px - $control-horizontal-margin;
+}
+
+.contact-us__form-control {
+  flex: 1 0 255px;
+  margin: $control-vertical-margin $control-horizontal-margin;
+}
+
+.contact-us__btn {
+  margin: 52px auto 0;
+}
