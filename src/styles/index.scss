@@ -9,8 +9,8 @@ body {
   font-family: $font-family1;
   font-size: $fonts-size8;
   color: $color-firm9;
+  background-color: $color-firm21;
 }
-
 
 h1 {
   font-size: $fonts-size1;
@@ -60,6 +60,18 @@ p {
 .app_section--dark {
   background-color: $color-firm1;
   color: $color-firm2;
+}
+
+.app_section--light {
+  background-color: $color-firm2;
+  border-top: 1px solid $color-firm10;
+  border-bottom: 1px solid $color-firm10;
+}
+
+.app_section--our-customer {
+  background-color: $color-firm2;
+  padding-top: 45px;
+  padding-bottom: 48px;
 }
 
 .app_section--price {
