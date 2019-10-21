@@ -1,8 +1,9 @@
-@import "./clear";
-@import "./variables";
-@import "./mixins";
+@import "./clear.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
 @import "./fonts.scss";
-@import "components/index.scss";
+@import "./typography.scss";
+@import "./components/index.scss";
 
 html,
 body {
@@ -10,47 +11,6 @@ body {
   font-size: $fonts-size8;
   color: $color-firm9;
   background-color: $color-firm21;
-}
-
-h1 {
-  font-size: $fonts-size1;
-}
-
-h2 {
-  font-size: $fonts-size2;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: $fonts-size3;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-h4 {
-  font-size: $fonts-size4;
-}
-
-h5 {
-  font-size: $fonts-size5;
-}
-
-h6 {
-  font-size: $fonts-size6;
-  text-transform: uppercase;
-  font-weight: 600;
-  line-height: 1.33;
-}
-
-p {
-  line-height: 1.79;
-  font-weight: 300;
-}
-
-.subtitle {
-  font-size: $fonts-size7;
-  font-weight: 600;
-  text-transform: uppercase;
 }
 
 .app_section {
@@ -68,10 +28,17 @@ p {
   border-bottom: 1px solid $color-firm10;
 }
 
+
 .app_section--our-customer {
-  background-color: $color-firm2;
   padding-top: 45px;
   padding-bottom: 48px;
+}
+
+.app_section--our-team {
+  background: url("../assets/images/static/our-team-background.jpg") no-repeat 50%/ cover;
+  .app__section-title {
+    color: $color-firm2;
+  }
 }
 
 .app_section--price {
