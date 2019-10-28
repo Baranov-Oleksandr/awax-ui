@@ -10,50 +10,49 @@ $section-content-max-width: 1192px;
 html,
 body {
   font-family: $font-family1;
-  font-size: $fonts-size8;
+  font-size: $font-size8;
   color: $color-firm9;
   background-color: $color-firm21;
 }
 
-.app_section {
+.app__section {
   padding: 60px 20px 92px;
 }
 
-.app_section--dark {
+.app__section--dark {
   background-color: $color-firm1;
   color: $color-firm2;
 }
 
-.app_section--light {
+.app__section--light {
   background-color: $color-firm2;
   border-top: 1px solid $color-firm10;
   border-bottom: 1px solid $color-firm10;
 }
 
-
-.app_section--our-customer {
+.app__section--our-customer {
   padding-top: 45px;
   padding-bottom: 48px;
 }
 
-.app_section--our-team {
+.app__section--our-team {
   background: url("../assets/images/static/our-team-background.jpg") no-repeat 50%/ cover;
   .app__section-title {
     color: $color-firm2;
   }
 }
 
-.app_section--price {
+.app__section--price {
   background-color: $color-firm11;
   color: $color-firm1;
 }
 
-.app_section-content {
+.app__section-content {
   max-width: 1132px;
   margin: 0 auto;
 }
 
-.app_section-subtitle {
+.app__section-subtitle {
   margin-top: 8px;
   text-align: center;
   color: $color-firm4;

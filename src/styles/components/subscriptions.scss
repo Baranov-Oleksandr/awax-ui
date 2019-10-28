@@ -1,6 +1,5 @@
 @import "../variables.scss";
 
-
 .subscriptions__container {
   display: flex;
   justify-content: center;
@@ -32,7 +31,7 @@
 }
 
 .subscriptions__feature-description {
-  font-size: $fonts-size7;
+  font-size: $font-size7;
   margin-top: 2px;
 }
 
